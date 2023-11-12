@@ -1,0 +1,31 @@
+localhost:~# history
+   0 mkdir home
+   1 mkdir -p /home/animals
+   2 mkdir -p /home/animals/dogs
+   3 mkdir -p /home/animals/cats
+   4 mkdir -p /home/animals/fish
+   5 touch -p /home/animals/dogs/pluto.txt
+   6 touch /home/animals/dogs/pluto.txt
+   7 touch /home/animals/cats/garfield.txt
+   8 touch /home/animals/fish/nemo.txt
+   9 mkdir -p /home/planets
+  10 mkdir -p /opt/Mercury
+  11 mkdir -p /opt/Venus
+  12 mkdir -p /opt/Mars
+  13 mkdir -p /opt/Jupiter
+  14 mv /opt/Mercury /home/planets
+  15 mv /opt/Venus /home/planets
+  16 mv /opt/Mars /home/planets
+  17 mv /opt/Jupiter /home/planets
+  18 tree /home
+  19 touch /tmp/adam.txt
+  20 mkdir -p /home/humans
+  21 cp /tmp/adam.txt /home/humans
+  22 tree /home
+  23 touch /tmp/evA.txt
+  24 mv /tmp/evA.txt /opt/eve.txt
+  25 tree /opt
+  26 mv /opt/eve.txt /home/humans
+  27 tree /home/humans
+  28 history
+
