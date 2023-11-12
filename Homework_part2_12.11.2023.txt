@@ -1,0 +1,29 @@
+
+
+
+localhost:~# history
+   0 touch /.testing
+   1 ls
+   2 ls -l
+   3 ls -al
+   4 touch .testing
+   5 ls -l
+   6 ls -al
+   7 cp .testing /usr/bin
+   8 tree /usr/bin
+   9 ls all /usr/bin
+  10 ls -la  /usr/bin
+  11 clear
+  12 mv /opt/temu /root/my_user
+  13 rm -r /opt
+  14 ls -s
+  15 history
+
+
+
+
+
+
+
+
+
