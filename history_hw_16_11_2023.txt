@@ -1,0 +1,18 @@
+   0 mkdir -p /home/user/start; touch /home/user/start/1.txt
+   1 ls -l /home/user/
+   2 echo "Start" >> /home/user/start/1.txt 
+   3 date >> /home/user/start/1.txt
+   4 cat /home/user/start/1.txt 
+   5 mkdir -p /opt/task; cp /home/user/start/1.txt /opt/task/start.txt
+   6 cat /opt/task/start.txt 
+   7 ls / -ls
+   8 ls / -ls | tail -4 >> /opt/task/start.txt 
+   9 mkdir -p /tmp/testnew; cp -r /opt/task /tmp/testnew
+  10 tree /tmp/testnew/
+  11 cat readme.txt >> /tmp/testnew/task/start.txt 
+  12 cat start.txt 
+  13 cat /tmp/testnew/task/start.txt 
+  14 rm -r /opt/task
+  15 tree /opt
+  16 history
+  17 history > history_hw_16_11_2023.txt
